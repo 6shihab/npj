@@ -16,7 +16,7 @@ class Thread1 extends Thread{
     public void run() {
         JFrame frame1=new JFrame();
         JLabel[] label1=new JLabel[20];
-        frame1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+//        frame1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame1.setSize(500,500);
         frame1.setLayout(new FlowLayout());
         for (int i=0;i<20;i++){
